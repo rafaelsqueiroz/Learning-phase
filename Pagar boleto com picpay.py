@@ -25,13 +25,12 @@ elif resp == 'n': # não utiliza o saldo que já tinha na conta
     else:
         cashback = percent_cashback/100 * limite_boleto
     ganho_liq = boleto + cashback - fat_cartao
-    
+
 else:
     print("Resposta inválida")
 
-print ("\nTotal de cashback ganho: R$ %.2f" % cashback)
-print ("Ganho líquido: R$ %.2f" % ganho_liq)
+print ("\nTotal de cashback ganho: R$ {cashback:0.2f}".format(cashback=cashback))
+print ("Ganho líquido: R$ {ganho_liq:0.2f}".format(ganho_liq=ganho_liq))
 
-# como truncar a casa decimal?
+# como truncar a casa decimal? -> truncando (int)
 # tem como transformar ponto em virgula?
-
