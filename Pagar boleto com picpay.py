@@ -9,7 +9,6 @@ taxa = float(input("Digite a taxa (em %), que será cobrada no cartão de crédi
 resp = input("Você deseja usar o saldo anterior para pagar o boleto? Responda ""y"" para sim e ""n"" para não: ")
 
 
-    
 if resp == 'y':# utiliza o saldo que já tinha na conta
     fat_cartao = (boleto - saldo)*(1 + taxa/100)
     if fat_cartao <= limite_boleto:
