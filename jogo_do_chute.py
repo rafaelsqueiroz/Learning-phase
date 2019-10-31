@@ -2,7 +2,7 @@ from random import randrange
 
 rodando = True
 while rodando:
-    num = randrange(2, 100)
+    num = randrange(1, 101)
     print("Bem vindo ao jogo do chute!\n")
     print ("Tente adivinhar o número que estou pensando, entre 1 e 100:")
     chute = 0
