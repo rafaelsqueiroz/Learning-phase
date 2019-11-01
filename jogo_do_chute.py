@@ -2,7 +2,7 @@ from random import randrange
 
 while True:
     num = randrange(1, 101)
-    print("Bem vindo ao jogo do chute!\n")
+    print("\nBem vindo ao jogo do chute!\n")
     print ("Tente adivinhar o número que estou pensando, entre 1 e 100:")
     chute = 0
     cont = 0
@@ -22,4 +22,3 @@ while True:
     if not rodando:
         print("\nObrigado por jogar!")
         break
-    print("")
