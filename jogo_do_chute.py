@@ -17,7 +17,7 @@ while True:
             print ("Você deve chutar mais alto!")
         
     print ("Parabéns, você acertou!!")
-    print (f"Você chutou {cont} vezes.")
+    print ("Você chutou {} vezes.".format(cont))
     rodando = bool(int(input("Você deseja jogar novamente? Digite: 1 - SIM / 0 - Não: ")))
     if not rodando:
         print("\nObrigado por jogar!")
