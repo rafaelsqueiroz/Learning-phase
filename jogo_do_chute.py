@@ -1,7 +1,6 @@
 from random import randrange
 
-rodando = True
-while rodando:
+while True:
     num = randrange(1, 101)
     print("Bem vindo ao jogo do chute!\n")
     print ("Tente adivinhar o número que estou pensando, entre 1 e 100:")
@@ -22,4 +21,5 @@ while rodando:
     rodando = bool(int(input("Você deseja jogar novamente? Digite: 1 - SIM / 0 - Não: ")))
     if not rodando:
         print("\nObrigado por jogar!")
+        break
     print("")
